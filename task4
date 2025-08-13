@@ -1,0 +1,7 @@
+def sort_numbers():
+    nums = input("Enter numbers separated by spaces: ")
+    num_list = [int(x) for x in nums.split()]
+    num_list.sort()
+    print("Sorted numbers:", ' '.join(str(x) for x in num_list))
+
+sort_numbers()
